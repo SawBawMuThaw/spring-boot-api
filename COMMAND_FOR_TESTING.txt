@@ -1,0 +1,7 @@
+./mvnw test # run all test
+
+./mvnw -Dtest=ProductServiceTest test # run unit test
+./mvnw -Dtest=ProductControllerIntegrationTest test # run integration test
+
+
+mvn clean package # run all and create .jar file
