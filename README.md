@@ -1,0 +1,1 @@
+![CI](https://github.com/SawBawMuThaw/spring-boot-api/actions/workflows/springboot-ci.yml/badge.svg)
