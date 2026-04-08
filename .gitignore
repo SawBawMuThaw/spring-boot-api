@@ -34,3 +34,5 @@ build/
 
 ### keys ###
 *.pem
+
+.github/workflows/springboot-ci.yml
