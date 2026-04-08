@@ -18,11 +18,6 @@ public class ProductController {
         this.productService = productService;
     }
 
-    @GetMapping("/")
-    public String Index() {
-        return "You have reached v1 index page";
-    }
-
     @GetMapping
     public List<Product> getAllProducts() {
         return productService.getAllProducts();
