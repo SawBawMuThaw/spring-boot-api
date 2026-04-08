@@ -28,7 +28,7 @@ jobs:
           username : ubuntu
           key: ${{ secrets.EC2_KEY }}
           script: |
-            cd /home/ubuntu
+            cd /home/ubuntu/target
             pkill -f "java -jar" || true
             nohup java -jar *.jar > app.log 2>&1 &
             echo "App deployed successfully!"
